@@ -1,6 +1,6 @@
 .caixaformulario {
     background-color: #e5e5e5;
-    padding: 50px 50px;
+    padding: 40px 120px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -27,6 +27,16 @@
     border: 2px solid #32b9cd;
     color: black;
 }
+
+ input::placeholder{   
+    text-align: center;
+    
+}
+
+input:focus-visible{
+    outline: unset;
+}
+
 .campo label {
     color: #e6005a;
     margin: 10px 0;
